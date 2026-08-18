@@ -1,7 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import React, {useState} from 'react'
 
-const Header = () => {
+const Navigationbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const navItems = [
@@ -73,4 +73,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navigationbar
